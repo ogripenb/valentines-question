@@ -96,12 +96,16 @@
 
         h1 {
             font-family: 'Caveat', cursive;
-            font-size: clamp(2.5rem, 8vw, 4.5rem);
+            font-size: clamp(2rem, 6vw, 4rem);
             color: var(--deep-rose);
             margin-bottom: 30px;
-            line-height: 1.2;
+            line-height: 1.3;
             animation: bounceIn 1s ease-out 0.3s both;
             text-shadow: 2px 2px 4px rgba(196, 69, 105, 0.1);
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            hyphens: auto;
+            max-width: 100%;
         }
 
         @keyframes bounceIn {
@@ -306,7 +310,6 @@
     <div class="hearts-bg" id="heartsBackground"></div>
 
     <div class="container">
-        
         <h1>Hi Best Honeyboo, Will You Be My Valentine? 💕</h1>
         
         <div class="photo-container">
